@@ -1,2 +1,2 @@
-import ListenerObservable from './src/index';
+import ListenerObservable from './build/index';
 export default ListenerObservable;
