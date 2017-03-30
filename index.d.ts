@@ -1,1 +1,2 @@
-export * from './build/index';
+import ListenerObservable from './src/index';
+export default ListenerObservable;
