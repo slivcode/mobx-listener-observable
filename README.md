@@ -17,11 +17,11 @@ let lOb = new ListenerObservable({
         // active: false will not automatically run at first.
     }
 })
-lOb.trackScroll.active = false;
+lOb.state.trackScroll.active = false;
 // trackscroll is now stopped.
 setTimeout(() => {
-    lOb.trackScroll.active = true; // restart trackscroll 1s later.
+    lOb.state.trackScroll.active = true; // restart trackscroll 1s later.
 }, 1000)
-lOb.autoLog.active = true;
+lOb.state.autoLog.active = true;
 // start autoLog.
 ```
