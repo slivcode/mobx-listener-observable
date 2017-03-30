@@ -1,6 +1,6 @@
 {
   "name": "mobx-listener-observable",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "mobx listener observable",
   "main": "index.js",
   "typings": "index.d.js",
