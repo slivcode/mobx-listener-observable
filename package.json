@@ -1,0 +1,31 @@
+{
+  "name": "mobx-listener-observable",
+  "version": "0.0.1",
+  "description": "mobx listener observable",
+  "main": "index.js",
+  "typings": "index.d.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "mobx",
+    "observable"
+  ],
+  "author": "sliv <sliv.mbp@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jest": "^19.2.2",
+    "mobx": "^3.1.7"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }
+}

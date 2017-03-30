@@ -1,0 +1,6 @@
+.gitignore
+src
+tsconfig.json
+**/__test__
+.idea
+.npmignore
